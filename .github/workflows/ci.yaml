@@ -5,8 +5,8 @@ on:
     branches: [ "main", "dev" ]
   pull_request:
     branches: [ "main" ]
-  schedule:
-    - cron: "0 2 * * *" # Runs daily at 2 AM UTC
+#  schedule:
+#    - cron: "0 2 * * *" # Runs daily at 2 AM UTC
   workflow_dispatch:
     inputs:
       environment:
